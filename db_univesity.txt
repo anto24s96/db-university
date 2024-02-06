@@ -40,5 +40,9 @@
     WHERE `level` = 'magistrale';
 --------------------------------------------------------------------
 
+7- Da quanti dipartimenti è composta l'università?
 
+    SELECT COUNT(*) AS `Il numero di dipartimenti è:`
+    FROM `departments`;
+--------------------------------------------------------------------
 
