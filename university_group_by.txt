@@ -6,5 +6,10 @@
     ORDER BY `year` ASC;
 --------------------------------------------------------------------
 
+2- Contare gli insegnanti che hanno l'ufficio nello stesso edificio;
 
+    SELECT `office_address`, COUNT(*) AS `num_of_teachers`
+    FROM `teachers` 
+    GROUP BY `office_address`
+    ORDER BY `num_of_teachers` ASC;
 
